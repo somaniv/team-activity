@@ -3,14 +3,25 @@
         "enabled": true,
         "rules": {
             "recommended": true
-        }
+        },
+        "ignore": [
+            "node_modules"
+        ]
     },
     "formatter": {
         "enabled": true,
         "formatWithErrors": false,
-        "indentStyle": "tab",
+        "indentStyle": "space",
         "indentSize": 2,
         "lineWidth": 80,
         "ignore": []
+    },
+    "javascript": {
+        "formatter": {
+            "quoteStyle": "single",
+            "trailingComma": "all",
+            "quoteProperties": "asNeeded",
+            "semicolons": "asNeeded"
+        }
     }
 }
